@@ -9,11 +9,11 @@ import requests
 
 
 # Parameters
-database = 'LT/project/txt_files/database.txt'
-locations = 'LT/project/txt_files/locations.txt'
-distances = 'LT/project/txt_files/distances.txt'
+database = 'project/txt_files/database.txt'
+locations = 'project/txt_files/locations.txt'
+distances = 'project/txt_files/distances.txt'
 
-msg = 'Note the execution must be done from ORCO21 folder.\nIf any problem to access file verify the cmd is open at the right location.\n'
+msg = 'Note that the execution is to be made from a specific folder so that the script reach the files.\nIf you encounter any issue finding the files, check lines 12-14 makes sense to what you do.\n'
 mode = 'distance' # 'distance', 'duration'
 w_time = 5.1
 verbose = True
